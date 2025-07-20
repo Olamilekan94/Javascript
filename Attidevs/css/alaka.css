@@ -1,0 +1,20 @@
+body{
+    background-color: orange;
+    border-radius: 20%;
+}
+form{
+    text-align: center;
+    color: white;
+}
+p{
+    text-align: center;
+}
+.form{
+    color: orange;
+    padding: 5px;
+    
+}
+input{
+    background-color: transparent;
+    
+}

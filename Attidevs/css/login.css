@@ -1,0 +1,26 @@
+body{
+    background-color: green;
+}
+
+form{
+    text-align: center;
+    color: white;
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius:20px ;
+}
+input{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid white;
+}
+label{
+    color: white;
+}
+
+.error1{
+    color: red;
+}

@@ -3,32 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Attidevs/css/index.css">
     <title>My Website</title>
-    <h2>Create Account</h2>
+    
     </head>
    <body>
-   <form class="form" action="#" method="post">
-    <label for="firstname">First Name:</label><br>
-    <input type="text" placeholder="First Name" id="firstname" name="firstname" required><br><br>
+    <form id="SignupForm">
+        <h2>Create Account</h2>
+    <label>First Name</label><br>
+    <input type="text" id="firstname" placeholder="First Name"><br><br>
 
-    <label for="lastname">Last Name:</label><br>
-    <input type="text" placeholder=" Last Name" id="lastname" name="lastname" required><br><br>
+    <label >Last Name</label><br>
+    <input type="text" id="lastname" placeholder=" Last Name" ><br><br>
 
-    <label for="password">Password:</label><br>
-    <input type="password" placeholder="Password" id="password" name="password" required><br><br>
-
-    <label for="confirm-password">Confirm Password:</label><br>
-    <input type="password" placeholder="Password" id="confirm-password" name="confirm-password" required><br><br>
-    <button type="submit">Sign Up</button>
+    <label>Email</label><br>
+    <input type="text" id="signupemail" placeholder=" email"><br><br>
     
-   </form>
+    <label>Password</label><br>
+    <input type="password" id="password" placeholder="Password" ><br><br>
 
+    <label>Confirm Password</label><br>
+    <input type="password" id="confirmpassword" placeholder="Password"><br><br>
+
+     <button type="submit">Sign Up</button>
+    <p class="error" id="SignupError"></p>
+    </form>
    
-
    
-  
+</form>
+<script src="/Attidevs/js/index.js"></script>
 
-    
 </body>
 </html>
